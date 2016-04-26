@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84E389C1BFAB7DE0009709B /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E389B1BFAB7DE0009709B /* Member.m */; };
+		F85501B31BF9BF6A00877E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501B21BF9BF6A00877E78 /* main.m */; };
+		F85501B61BF9BF6A00877E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501B51BF9BF6A00877E78 /* AppDelegate.m */; };
+		F85501B91BF9BF6A00877E78 /* DelegationTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F85501B71BF9BF6A00877E78 /* DelegationTable.xcdatamodeld */; };
+		F85501BC1BF9BF6A00877E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501BB1BF9BF6A00877E78 /* ViewController.m */; };
+		F85501BF1BF9BF6A00877E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85501BD1BF9BF6A00877E78 /* Main.storyboard */; };
+		F85501C11BF9BF6A00877E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85501C01BF9BF6A00877E78 /* Images.xcassets */; };
+		F85501C41BF9BF6A00877E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85501C21BF9BF6A00877E78 /* LaunchScreen.xib */; };
+		F85501D01BF9BF6A00877E78 /* DelegationTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501CF1BF9BF6A00877E78 /* DelegationTableTests.m */; };
+		F85501E41BF9C90F00877E78 /* Delegation.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501E21BF9C90F00877E78 /* Delegation.m */; };
+		F85501E71BF9C98900877E78 /* DelegationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501E61BF9C98900877E78 /* DelegationsViewController.m */; };
+		F85501EA1BF9D3BB00877E78 /* MembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501E91BF9D3BB00877E78 /* MembersViewController.m */; };
+		F85501EE1BF9D71E00877E78 /* EditMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501EC1BF9D71E00877E78 /* EditMemberViewController.m */; };
+		F85501EF1BF9D71E00877E78 /* EditMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85501ED1BF9D71E00877E78 /* EditMemberViewController.xib */; };
+		F85501F11BF9E71200877E78 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = F85501F01BF9E71200877E78 /* arrow_left.png */; };
+		F85501F51BF9EB3200877E78 /* EditDelegationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85501F31BF9EB3200877E78 /* EditDelegationViewController.m */; };
+		F85501F61BF9EB3200877E78 /* EditDelegationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85501F41BF9EB3200877E78 /* EditDelegationViewController.xib */; };
+		F855020E1BFA0D3A00877E78 /* kimkwanghyok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85501FF1BFA0D3A00877E78 /* kimkwanghyok.jpg */; };
+		F855020F1BFA0D3A00877E78 /* paekchungkuk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502001BFA0D3A00877E78 /* paekchungkuk.jpg */; };
+		F85502101BFA0D3A00877E78 /* kimchol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502011BFA0D3A00877E78 /* kimchol.jpg */; };
+		F85502111BFA0D3A00877E78 /* kimchangchol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502021BFA0D3A00877E78 /* kimchangchol.jpg */; };
+		F85502121BFA0D3A00877E78 /* richolmin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502031BFA0D3A00877E78 /* richolmin.jpg */; };
+		F85502131BFA0D3A00877E78 /* rigyonghyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502041BFA0D3A00877E78 /* rigyonghyon.jpg */; };
+		F85502141BFA0D3A00877E78 /* yangchungil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502051BFA0D3A00877E78 /* yangchungil.jpg */; };
+		F85502151BFA0D3A00877E78 /* kimjusong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502061BFA0D3A00877E78 /* kimjusong.jpg */; };
+		F85502161BFA0D3A00877E78 /* kimkumhyok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502071BFA0D3A00877E78 /* kimkumhyok.jpg */; };
+		F85502171BFA0D3A00877E78 /* riyongjin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502081BFA0D3A00877E78 /* riyongjin.jpg */; };
+		F85502181BFA0D3A00877E78 /* pakchunkwang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85502091BFA0D3A00877E78 /* pakchunkwang.jpg */; };
+		F85502191BFA0D3A00877E78 /* kimkwangmyong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F855020A1BFA0D3A00877E78 /* kimkwangmyong.jpg */; };
+		F855021A1BFA0D3A00877E78 /* kimjongchol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F855020B1BFA0D3A00877E78 /* kimjongchol.jpg */; };
+		F855021B1BFA0D3A00877E78 /* rimyonghyok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F855020C1BFA0D3A00877E78 /* rimyonghyok.jpg */; };
+		F855021C1BFA0D3A00877E78 /* chaejuhyok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F855020D1BFA0D3A00877E78 /* chaejuhyok.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85501CA1BF9BF6A00877E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85501A51BF9BF6A00877E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85501AC1BF9BF6A00877E78;
+			remoteInfo = DelegationTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F84E389A1BFAB7DE0009709B /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Member.h; path = ../Member.h; sourceTree = "<group>"; };
+		F84E389B1BFAB7DE0009709B /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Member.m; path = ../Member.m; sourceTree = "<group>"; };
+		F85501AD1BF9BF6A00877E78 /* DelegationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85501B11BF9BF6A00877E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85501B21BF9BF6A00877E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85501B41BF9BF6A00877E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F85501B51BF9BF6A00877E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F85501B81BF9BF6A00877E78 /* DelegationTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DelegationTable.xcdatamodel; sourceTree = "<group>"; };
+		F85501BA1BF9BF6A00877E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F85501BB1BF9BF6A00877E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F85501BE1BF9BF6A00877E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85501C01BF9BF6A00877E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F85501C31BF9BF6A00877E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F85501C91BF9BF6A00877E78 /* DelegationTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85501CE1BF9BF6A00877E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85501CF1BF9BF6A00877E78 /* DelegationTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationTableTests.m; sourceTree = "<group>"; };
+		F85501E11BF9C90F00877E78 /* Delegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegation.h; sourceTree = "<group>"; };
+		F85501E21BF9C90F00877E78 /* Delegation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delegation.m; sourceTree = "<group>"; };
+		F85501E51BF9C98900877E78 /* DelegationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegationsViewController.h; sourceTree = "<group>"; };
+		F85501E61BF9C98900877E78 /* DelegationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegationsViewController.m; sourceTree = "<group>"; };
+		F85501E81BF9D3BB00877E78 /* MembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersViewController.h; sourceTree = "<group>"; };
+		F85501E91BF9D3BB00877E78 /* MembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersViewController.m; sourceTree = "<group>"; };
+		F85501EB1BF9D71E00877E78 /* EditMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMemberViewController.h; sourceTree = "<group>"; };
+		F85501EC1BF9D71E00877E78 /* EditMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMemberViewController.m; sourceTree = "<group>"; };
+		F85501ED1BF9D71E00877E78 /* EditMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMemberViewController.xib; sourceTree = "<group>"; };
+		F85501F01BF9E71200877E78 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		F85501F21BF9EB3200877E78 /* EditDelegationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDelegationViewController.h; sourceTree = "<group>"; };
+		F85501F31BF9EB3200877E78 /* EditDelegationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDelegationViewController.m; sourceTree = "<group>"; };
+		F85501F41BF9EB3200877E78 /* EditDelegationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDelegationViewController.xib; sourceTree = "<group>"; };
+		F85501FF1BFA0D3A00877E78 /* kimkwanghyok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimkwanghyok.jpg; sourceTree = "<group>"; };
+		F85502001BFA0D3A00877E78 /* paekchungkuk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paekchungkuk.jpg; sourceTree = "<group>"; };
+		F85502011BFA0D3A00877E78 /* kimchol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimchol.jpg; sourceTree = "<group>"; };
+		F85502021BFA0D3A00877E78 /* kimchangchol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimchangchol.jpg; sourceTree = "<group>"; };
+		F85502031BFA0D3A00877E78 /* richolmin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = richolmin.jpg; sourceTree = "<group>"; };
+		F85502041BFA0D3A00877E78 /* rigyonghyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rigyonghyon.jpg; sourceTree = "<group>"; };
+		F85502051BFA0D3A00877E78 /* yangchungil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangchungil.jpg; sourceTree = "<group>"; };
+		F85502061BFA0D3A00877E78 /* kimjusong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimjusong.jpg; sourceTree = "<group>"; };
+		F85502071BFA0D3A00877E78 /* kimkumhyok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimkumhyok.jpg; sourceTree = "<group>"; };
+		F85502081BFA0D3A00877E78 /* riyongjin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riyongjin.jpg; sourceTree = "<group>"; };
+		F85502091BFA0D3A00877E78 /* pakchunkwang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pakchunkwang.jpg; sourceTree = "<group>"; };
+		F855020A1BFA0D3A00877E78 /* kimkwangmyong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimkwangmyong.jpg; sourceTree = "<group>"; };
+		F855020B1BFA0D3A00877E78 /* kimjongchol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimjongchol.jpg; sourceTree = "<group>"; };
+		F855020C1BFA0D3A00877E78 /* rimyonghyok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rimyonghyok.jpg; sourceTree = "<group>"; };
+		F855020D1BFA0D3A00877E78 /* chaejuhyok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chaejuhyok.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85501AA1BF9BF6A00877E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85501C61BF9BF6A00877E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85501A41BF9BF6A00877E78 = {
+			isa = PBXGroup;
+			children = (
+				F85501AF1BF9BF6A00877E78 /* DelegationTable */,
+				F85501CC1BF9BF6A00877E78 /* DelegationTableTests */,
+				F85501AE1BF9BF6A00877E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85501AE1BF9BF6A00877E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85501AD1BF9BF6A00877E78 /* DelegationTable.app */,
+				F85501C91BF9BF6A00877E78 /* DelegationTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85501AF1BF9BF6A00877E78 /* DelegationTable */ = {
+			isa = PBXGroup;
+			children = (
+				F85501F21BF9EB3200877E78 /* EditDelegationViewController.h */,
+				F85501F31BF9EB3200877E78 /* EditDelegationViewController.m */,
+				F85501F41BF9EB3200877E78 /* EditDelegationViewController.xib */,
+				F85501EB1BF9D71E00877E78 /* EditMemberViewController.h */,
+				F85501EC1BF9D71E00877E78 /* EditMemberViewController.m */,
+				F85501ED1BF9D71E00877E78 /* EditMemberViewController.xib */,
+				F85501E81BF9D3BB00877E78 /* MembersViewController.h */,
+				F85501E91BF9D3BB00877E78 /* MembersViewController.m */,
+				F85501E51BF9C98900877E78 /* DelegationsViewController.h */,
+				F85501E61BF9C98900877E78 /* DelegationsViewController.m */,
+				F84E389A1BFAB7DE0009709B /* Member.h */,
+				F84E389B1BFAB7DE0009709B /* Member.m */,
+				F85501E11BF9C90F00877E78 /* Delegation.h */,
+				F85501E21BF9C90F00877E78 /* Delegation.m */,
+				F85501B41BF9BF6A00877E78 /* AppDelegate.h */,
+				F85501B51BF9BF6A00877E78 /* AppDelegate.m */,
+				F85501BA1BF9BF6A00877E78 /* ViewController.h */,
+				F85501BB1BF9BF6A00877E78 /* ViewController.m */,
+				F85501BD1BF9BF6A00877E78 /* Main.storyboard */,
+				F85501C01BF9BF6A00877E78 /* Images.xcassets */,
+				F85501C21BF9BF6A00877E78 /* LaunchScreen.xib */,
+				F85501B71BF9BF6A00877E78 /* DelegationTable.xcdatamodeld */,
+				F85501B01BF9BF6A00877E78 /* Supporting Files */,
+			);
+			path = DelegationTable;
+			sourceTree = "<group>";
+		};
+		F85501B01BF9BF6A00877E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85501FF1BFA0D3A00877E78 /* kimkwanghyok.jpg */,
+				F85502001BFA0D3A00877E78 /* paekchungkuk.jpg */,
+				F85502011BFA0D3A00877E78 /* kimchol.jpg */,
+				F85502021BFA0D3A00877E78 /* kimchangchol.jpg */,
+				F85502031BFA0D3A00877E78 /* richolmin.jpg */,
+				F85502041BFA0D3A00877E78 /* rigyonghyon.jpg */,
+				F85502051BFA0D3A00877E78 /* yangchungil.jpg */,
+				F85502061BFA0D3A00877E78 /* kimjusong.jpg */,
+				F85502071BFA0D3A00877E78 /* kimkumhyok.jpg */,
+				F85502081BFA0D3A00877E78 /* riyongjin.jpg */,
+				F85502091BFA0D3A00877E78 /* pakchunkwang.jpg */,
+				F855020A1BFA0D3A00877E78 /* kimkwangmyong.jpg */,
+				F855020B1BFA0D3A00877E78 /* kimjongchol.jpg */,
+				F855020C1BFA0D3A00877E78 /* rimyonghyok.jpg */,
+				F855020D1BFA0D3A00877E78 /* chaejuhyok.jpg */,
+				F85501F01BF9E71200877E78 /* arrow_left.png */,
+				F85501B11BF9BF6A00877E78 /* Info.plist */,
+				F85501B21BF9BF6A00877E78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85501CC1BF9BF6A00877E78 /* DelegationTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85501CF1BF9BF6A00877E78 /* DelegationTableTests.m */,
+				F85501CD1BF9BF6A00877E78 /* Supporting Files */,
+			);
+			path = DelegationTableTests;
+			sourceTree = "<group>";
+		};
+		F85501CD1BF9BF6A00877E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85501CE1BF9BF6A00877E78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85501AC1BF9BF6A00877E78 /* DelegationTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85501D31BF9BF6A00877E78 /* Build configuration list for PBXNativeTarget "DelegationTable" */;
+			buildPhases = (
+				F85501A91BF9BF6A00877E78 /* Sources */,
+				F85501AA1BF9BF6A00877E78 /* Frameworks */,
+				F85501AB1BF9BF6A00877E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelegationTable;
+			productName = DelegationTable;
+			productReference = F85501AD1BF9BF6A00877E78 /* DelegationTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85501C81BF9BF6A00877E78 /* DelegationTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85501D61BF9BF6A00877E78 /* Build configuration list for PBXNativeTarget "DelegationTableTests" */;
+			buildPhases = (
+				F85501C51BF9BF6A00877E78 /* Sources */,
+				F85501C61BF9BF6A00877E78 /* Frameworks */,
+				F85501C71BF9BF6A00877E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85501CB1BF9BF6A00877E78 /* PBXTargetDependency */,
+			);
+			name = DelegationTableTests;
+			productName = DelegationTableTests;
+			productReference = F85501C91BF9BF6A00877E78 /* DelegationTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85501A51BF9BF6A00877E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "DODOBAL-1";
+				TargetAttributes = {
+					F85501AC1BF9BF6A00877E78 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F85501C81BF9BF6A00877E78 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F85501AC1BF9BF6A00877E78;
+					};
+				};
+			};
+			buildConfigurationList = F85501A81BF9BF6A00877E78 /* Build configuration list for PBXProject "DelegationTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85501A41BF9BF6A00877E78;
+			productRefGroup = F85501AE1BF9BF6A00877E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85501AC1BF9BF6A00877E78 /* DelegationTable */,
+				F85501C81BF9BF6A00877E78 /* DelegationTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85501AB1BF9BF6A00877E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85501F11BF9E71200877E78 /* arrow_left.png in Resources */,
+				F85502151BFA0D3A00877E78 /* kimjusong.jpg in Resources */,
+				F85502191BFA0D3A00877E78 /* kimkwangmyong.jpg in Resources */,
+				F85502161BFA0D3A00877E78 /* kimkumhyok.jpg in Resources */,
+				F855020F1BFA0D3A00877E78 /* paekchungkuk.jpg in Resources */,
+				F855021C1BFA0D3A00877E78 /* chaejuhyok.jpg in Resources */,
+				F855021A1BFA0D3A00877E78 /* kimjongchol.jpg in Resources */,
+				F85502101BFA0D3A00877E78 /* kimchol.jpg in Resources */,
+				F855020E1BFA0D3A00877E78 /* kimkwanghyok.jpg in Resources */,
+				F85501BF1BF9BF6A00877E78 /* Main.storyboard in Resources */,
+				F85502131BFA0D3A00877E78 /* rigyonghyon.jpg in Resources */,
+				F85502171BFA0D3A00877E78 /* riyongjin.jpg in Resources */,
+				F85501C41BF9BF6A00877E78 /* LaunchScreen.xib in Resources */,
+				F855021B1BFA0D3A00877E78 /* rimyonghyok.jpg in Resources */,
+				F85501EF1BF9D71E00877E78 /* EditMemberViewController.xib in Resources */,
+				F85502121BFA0D3A00877E78 /* richolmin.jpg in Resources */,
+				F85502141BFA0D3A00877E78 /* yangchungil.jpg in Resources */,
+				F85502181BFA0D3A00877E78 /* pakchunkwang.jpg in Resources */,
+				F85502111BFA0D3A00877E78 /* kimchangchol.jpg in Resources */,
+				F85501F61BF9EB3200877E78 /* EditDelegationViewController.xib in Resources */,
+				F85501C11BF9BF6A00877E78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85501C71BF9BF6A00877E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85501A91BF9BF6A00877E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85501F51BF9EB3200877E78 /* EditDelegationViewController.m in Sources */,
+				F85501B61BF9BF6A00877E78 /* AppDelegate.m in Sources */,
+				F85501E71BF9C98900877E78 /* DelegationsViewController.m in Sources */,
+				F85501E41BF9C90F00877E78 /* Delegation.m in Sources */,
+				F85501B31BF9BF6A00877E78 /* main.m in Sources */,
+				F85501EA1BF9D3BB00877E78 /* MembersViewController.m in Sources */,
+				F85501BC1BF9BF6A00877E78 /* ViewController.m in Sources */,
+				F85501EE1BF9D71E00877E78 /* EditMemberViewController.m in Sources */,
+				F85501B91BF9BF6A00877E78 /* DelegationTable.xcdatamodeld in Sources */,
+				F84E389C1BFAB7DE0009709B /* Member.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85501C51BF9BF6A00877E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85501D01BF9BF6A00877E78 /* DelegationTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85501CB1BF9BF6A00877E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85501AC1BF9BF6A00877E78 /* DelegationTable */;
+			targetProxy = F85501CA1BF9BF6A00877E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85501BD1BF9BF6A00877E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85501BE1BF9BF6A00877E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85501C21BF9BF6A00877E78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85501C31BF9BF6A00877E78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85501D11BF9BF6A00877E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F85501D21BF9BF6A00877E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85501D41BF9BF6A00877E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DelegationTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F85501D51BF9BF6A00877E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DelegationTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F85501D71BF9BF6A00877E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelegationTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelegationTable.app/DelegationTable";
+			};
+			name = Debug;
+		};
+		F85501D81BF9BF6A00877E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelegationTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelegationTable.app/DelegationTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85501A81BF9BF6A00877E78 /* Build configuration list for PBXProject "DelegationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85501D11BF9BF6A00877E78 /* Debug */,
+				F85501D21BF9BF6A00877E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85501D31BF9BF6A00877E78 /* Build configuration list for PBXNativeTarget "DelegationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85501D41BF9BF6A00877E78 /* Debug */,
+				F85501D51BF9BF6A00877E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85501D61BF9BF6A00877E78 /* Build configuration list for PBXNativeTarget "DelegationTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85501D71BF9BF6A00877E78 /* Debug */,
+				F85501D81BF9BF6A00877E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F85501B71BF9BF6A00877E78 /* DelegationTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F85501B81BF9BF6A00877E78 /* DelegationTable.xcdatamodel */,
+			);
+			currentVersion = F85501B81BF9BF6A00877E78 /* DelegationTable.xcdatamodel */;
+			path = DelegationTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F85501A51BF9BF6A00877E78 /* Project object */;
+}

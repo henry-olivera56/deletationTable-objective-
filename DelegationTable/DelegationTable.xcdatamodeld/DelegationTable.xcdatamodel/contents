@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Delegation" representedClassName="Delegation" syncable="YES">
+        <attribute name="arrivaldate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="backdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Member" inverseName="delegation" inverseEntity="Member" syncable="YES"/>
+    </entity>
+    <entity name="Member" representedClassName="Member" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fatherjob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fathername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="job" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motherjob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mothername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="org" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="university" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="delegation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Delegation" inverseName="members" inverseEntity="Delegation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Delegation" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Member" positionX="241" positionY="-9" width="128" height="240"/>
+    </elements>
+</model>
